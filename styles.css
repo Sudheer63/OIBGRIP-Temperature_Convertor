@@ -1,0 +1,42 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    background:lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.heading
+{
+    position: absolute;
+    top: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightskyblue;
+    text-shadow: 2px 2px 3px #FF0000, 2px 2px 5px #0000FF;
+
+}
+.content{
+    background-color: wheat;
+    border-radius: 8px;
+    border-style: solid;
+    box-shadow: 2px 2px 4px 4px black;
+    padding: 20px 50px 50px 50px; 
+}
+input{
+    padding:10px;
+    border-radius: 5px;
+}
+input #fahrenheit
+{
+    padding-left: 100px;
+}
+input{
+    font-size: large;
+    
+}
+h1{
+    padding-top: 10px;
+}
